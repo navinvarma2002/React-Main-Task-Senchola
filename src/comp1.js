@@ -2,6 +2,7 @@ import React from "react";
 import "./styles.css";
 const TourCard = ({ image, title, subtitle }) => {
   return (
+    <div className="cc">
     <div className="card" style={{ width: "18rem", margin: "10px" }}>
       <img src={image} className="card-img-top" alt={title} />
       <div className="card-body">
@@ -11,6 +12,7 @@ const TourCard = ({ image, title, subtitle }) => {
           Info
         </a>
       </div>
+    </div>
     </div>
   );
 };
