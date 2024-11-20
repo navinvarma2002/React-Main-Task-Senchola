@@ -1,0 +1,24 @@
+.nav-link{
+
+    display: flex;
+    
+
+}
+.nav-link:hover{
+
+    color: green;
+}
+
+@media screen and (max-width:700px){
+
+    .smalldisplay{
+
+        display: flex;
+    }
+    .collapse-navbar-collapse{
+
+        display: flex;
+        margin-right:50px ;
+    }
+    
+}
